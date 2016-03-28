@@ -1,0 +1,13 @@
+{application, emqttd_plugin_jsonlog,
+ [
+  {description, "Emqttd plugin for logging"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  lager
+                 ]},
+  {mod, { emqttd_plugin_jsonlog_app, []}},
+  {env, []}
+ ]}.
