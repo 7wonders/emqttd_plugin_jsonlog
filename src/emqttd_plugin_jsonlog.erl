@@ -1,7 +1,7 @@
 -module(emqttd_plugin_jsonlog).
 -export([load/1, unload/0]).
 
--include("../../../lib/emqttd-0.17.0/include/emqttd.hrl").
+-include("../../../include/emqttd.hrl").
 
 %% Hooks functions
 -export([on_message_publish/2]).
