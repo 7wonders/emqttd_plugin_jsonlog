@@ -9,6 +9,6 @@
                   lager,
                   jsx
                  ]},
-  {mod, { emqttd_plugin_jsonlog, []}},
+  {mod, { emqttd_plugin_jsonlog_app, []}},
   {env, []}
  ]}.
