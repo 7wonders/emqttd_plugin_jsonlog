@@ -19,7 +19,6 @@ on_message_publish(Message, _Env) ->
             Message#mqtt_message.topic,
             Message#mqtt_message.payload},
     ok = write_log(Args),
-    ok = emqttd_plugin_jsonlog_worker:write_log(Args),
     {ok, Message}.
 
 %% Called when the plugin application stop
