@@ -6,8 +6,7 @@
   {applications, [
                   kernel,
                   stdlib,
-                  lager,
-                  jsx
+                  lager
                  ]},
   {mod, { emqttd_plugin_jsonlog_app, []}},
   {env, []}
